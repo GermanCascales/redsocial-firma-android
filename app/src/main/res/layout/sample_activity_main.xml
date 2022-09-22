@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/bg"
+              android:orientation="vertical"
+              android:keepScreenOn="true"
+              android:id="@+id/sample_container">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_mi_uma" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Pulsa sobre uno de los botones para comenzar:"
+        android:textColor="@color/TextColor"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/reader_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_shape"
+            android:padding="15dp"
+            android:text="Prueba NFC"
+            android:textColor="@color/PureWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/scan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_shape"
+            android:padding="15dp"
+            android:text="Escanear QR"
+            android:textColor="@color/PureWhite"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/signature_button"
+            android:background="@drawable/button_shape"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PureWhite"
+            android:text="Firma"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/infoVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>
+

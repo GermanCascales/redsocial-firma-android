@@ -1,0 +1,17 @@
+de.tsenger.androsmex.data
+de.tsenger.androsmex.iso7816.command.exception
+de.tsenger.androsmex.mrtd
+es.gob.fnmt.dniedroid.gui
+es.gob.fnmt.dniedroid.gui.fragment
+es.gob.fnmt.dniedroid.help
+es.gob.fnmt.dniedroid.net.http
+es.gob.fnmt.dniedroid.net.http.clave
+es.gob.fnmt.dniedroid.net.http.java
+es.gob.fnmt.dniedroid.net.http.okhttp
+es.gob.fnmt.dniedroid.net.ssl
+es.gob.fnmt.dniedroid.net.tool
+es.gob.fnmt.dniedroid.nfc
+es.gob.fnmt.dniedroid.policy
+es.gob.jmulticard.jse.provider
+es.gob.jmulticard.jse.provider.exception
+es.gob.jmulticard.ui.passwordcallback
